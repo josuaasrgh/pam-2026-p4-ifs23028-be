@@ -54,7 +54,7 @@ Dapat menyebabkan kembung
 Content-Disposition: form-data; name="file"; filename="example.png"
 Content-Type: image/png
 
-< ./example.png
+< ./example1.png
 --WebAppBoundary--
 
 > {%
@@ -120,7 +120,7 @@ Dapat menyebabkan kembung
 Content-Disposition: form-data; name="file"; filename="example.png"
 Content-Type: image/png
 
-< ./example.png
+< ./example1.png
 --WebAppBoundary--
 
 ### Menghapus data plant berdasarkan id-nya

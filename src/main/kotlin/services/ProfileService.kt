@@ -24,7 +24,7 @@ class ProfileService {
 
     // Mengambil photo profile
     suspend fun getProfilePhoto(call: ApplicationCall) {
-        val file = File("uploads/profile/me.png")
+        val file = File("uploads/profile/josua.png")
 
         if (!file.exists()) {
             return call.respond(HttpStatusCode.NotFound)
